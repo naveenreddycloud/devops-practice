@@ -4,13 +4,12 @@
 
 echo "please enter your username::"
 
-read USERNAME
+read -s USERNAME
 
 echo "username entered is :: $USERNAME"
 
-ECHO "PLEASE ENTER YOUR PASSWORD::"
+echo  "PLEASE ENTER YOUR PASSWORD::"
 
-read PASSWORD
+read -s PASSWORD
 
 echo "password is ::$PASWWORD"
- 
