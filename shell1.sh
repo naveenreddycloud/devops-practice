@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUM=("1 to 10")
+NUM=("1..10")
 
 echo ("print $NUM= ")
 
