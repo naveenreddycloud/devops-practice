@@ -1,8 +1,9 @@
 #!/bin/bash
 
-NUM=("1..10")
+NUM1=("X")
+NUM2=("Y")
 
-echo ("print $NUM= X")
+echo ("print $NUM1*$NUM2= X*Y")
 
 read $NUM
 
