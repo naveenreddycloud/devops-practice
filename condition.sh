@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-pwd 
+ls -ltr
 
 if [ $? -ne 0 ]; then 
   
