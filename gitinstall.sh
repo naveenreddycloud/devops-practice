@@ -16,6 +16,8 @@ if [ USERID -ne 0 ]; then
 echo "installing git failure"
 exit1
 
-else "installing git"
+else
+
+echo  "installing git"
 
 fi
