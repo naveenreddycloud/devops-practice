@@ -11,7 +11,7 @@ fi
 
 yum install git -y 
 
-if [ USERID -ne 0 ]; then 
+if [ $USERID -ne 0 ]; then 
 
 echo "installing git failure"
 exit1
