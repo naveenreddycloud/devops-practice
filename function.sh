@@ -10,4 +10,5 @@ hello(){
     echo "All are argus $@"
 
        }
-       
+
+       hello 
