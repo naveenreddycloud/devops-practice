@@ -2,9 +2,8 @@
 
 pwd 
 
-if[ $? -ne 0 ]; then 
+if [ $? -ne 0 ]; then 
   
   echo "above command failure"
 
   fi
-  
