@@ -9,7 +9,7 @@ if [ $? -ne 0 ]; then
 
   fi
 
-  chmod go -rwx condition.sh
+  chmod u+rwx condition.sh
 
   if [ $? -ne 0 ]; then 
   
