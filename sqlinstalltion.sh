@@ -30,7 +30,7 @@ dnf module enable nodejs:20 -y &>>$LOG
 
 VALIDATE $? "enabled nodejs:20"
 
-useradd expense &>>$LOG
+useradd expenseproject &>>$LOG
 
 VALIDATE $? "useradded"
 
